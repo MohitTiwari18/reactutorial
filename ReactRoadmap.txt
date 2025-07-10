@@ -1,0 +1,22 @@
+I. REACT
+1.React Installation
+2.JSX (JavaScript + XML)
+3.Components (functional and class Components)
+4.props (properties)
+5.state (useState Hook)
+6.Event handling 
+7.conditional Rendering
+8.List Rendering
+9.useEffect Hook
+10.Forms and Form Handling
+11.React Router (Routing)
+12.Context API (Global State Sharing)
+13.Custom Hooks
+14.API Integration using Fetch or Axios
+15.Component Reusability and Modularity
+16.Error Handling (try and catch)
+
+=======================================================
+
+II. REDUX (state managememt)
+III. TESTING (jest)
