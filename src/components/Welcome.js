@@ -1,3 +1,4 @@
+// //CLASS COMPONENT
 // import React, { Component } from "react";
 // class Welcome extends Component {
 //   render() {
@@ -11,6 +12,8 @@
 // export default Welcome;
 
 //===========================================================================
+
+//DESTRUCTURING PROPS AND STATE
 
 import React from "react";
 const Greet = (props) => {

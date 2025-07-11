@@ -1,3 +1,4 @@
+//STATE MANAGEMENT IN CLASS COMP0NENT
 import React, { Component } from "react";
 class Message extends Component {
   constructor() {
