@@ -6,6 +6,7 @@ import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ParentComponent from "./components/ParentComponent";
+import Greeting from "./components/Greeting";
 
 class App extends Component {
   render() {
@@ -29,8 +30,9 @@ class App extends Component {
         {/* 
         <Counter />
         <Welcome name="Mohit" heroName="Software Engineer " /> 
-        <FunctionClick />
+        <FunctionClick /> 
         */}
+        <Greeting />
       </div>
     );
   }
