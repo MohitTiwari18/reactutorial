@@ -8,6 +8,7 @@ import FunctionClick from "./components/FunctionClick";
 import ParentComponent from "./components/ParentComponent";
 import Greeting from "./components/Greeting";
 import Form from "./components/Form";
+import LifecycleA from "./components/LifecycleA";
 
 class App extends Component {
   render() {
@@ -33,9 +34,9 @@ class App extends Component {
         <FunctionClick /> 
         <ParentComponent />
         <Greeting />
-        */}
-
         <Form />
+        */}
+        <LifecycleA />
       </div>
     );
   }
