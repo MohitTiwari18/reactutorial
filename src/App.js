@@ -9,6 +9,9 @@ import ParentComponent from "./components/ParentComponent";
 import Greeting from "./components/Greeting";
 import Form from "./components/Form";
 import LifecycleA from "./components/LifecycleA";
+import FragmentDemo from "./components/FragmentDemo";
+import Table from "./components/Table";
+import Column from "./components/Columns";
 
 class App extends Component {
   render() {
@@ -35,8 +38,11 @@ class App extends Component {
         <ParentComponent />
         <Greeting />
         <Form />
+         <LifecycleA />
+             <FragmentDemo />
         */}
-        <LifecycleA />
+        <Table />
+        <Column />
       </div>
     );
   }
