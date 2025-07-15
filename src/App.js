@@ -13,6 +13,7 @@ import FragmentDemo from "./components/FragmentDemo";
 import Table from "./components/Table";
 import Column from "./components/Columns";
 import ParentComp from "./components/ParentComp";
+import RefsDemo from "./components/RefsDemo";
 
 class App extends Component {
   render() {
@@ -43,8 +44,9 @@ class App extends Component {
              <FragmentDemo />
              <Table />
         <Column />
+          <ParentComp />
         */}
-        <ParentComp />
+        <RefsDemo />
       </div>
     );
   }

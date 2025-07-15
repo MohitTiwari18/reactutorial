@@ -1,6 +1,7 @@
 /*
 QUESTION - WHY TO USE PURE COMPONENT?
-ANSWER - pure component used to prevent unnecessary render which can give us performance boost in certain scenarios. 
+ANSWER - pure component used to prevent unnecessary render which can give us performance boost in certain scenarios.
+--------------------------------------------------------------------------------------------------------------------- 
 
 REGULAR COMPONENT
 A regular component does not implement the shouldComponentUpdate method. it always returns true by default.
