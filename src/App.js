@@ -15,6 +15,7 @@ import Column from "./components/Columns";
 import ParentComp from "./components/ParentComp";
 import RefsDemo from "./components/RefsDemo";
 import FocusInput from "./components/FocusInput";
+import PortalDemo from "./components/PortalDemo";
 
 class App extends Component {
   render() {
@@ -46,9 +47,10 @@ class App extends Component {
              <Table />
         <Column />
           <ParentComp />
-        */}
-        <RefsDemo />
+           <RefsDemo />
         <FocusInput />
+        */}
+        <PortalDemo />
       </div>
     );
   }
