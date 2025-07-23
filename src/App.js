@@ -16,6 +16,8 @@ import ParentComp from "./components/ParentComp";
 import RefsDemo from "./components/RefsDemo";
 import FocusInput from "./components/FocusInput";
 import PortalDemo from "./components/PortalDemo";
+import Hero from "./components/Hero";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 class App extends Component {
   render() {
@@ -49,8 +51,10 @@ class App extends Component {
           <ParentComp />
            <RefsDemo />
         <FocusInput />
+         <PortalDemo />
         */}
-        <PortalDemo />
+        <Hero />
+        <ErrorBoundary />
       </div>
     );
   }
