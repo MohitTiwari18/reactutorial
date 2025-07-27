@@ -29,6 +29,7 @@ import HookCounterFour from "./components/ReactHooks/state-hook/HookCounterFour"
 import ClassMouse from "./components/ReactHooks/effect-hook/ClassMouse";
 import HookMouse from "./components/ReactHooks/effect-hook/HookMouse";
 import MouseContainer from "./components/ReactHooks/effect-hook/MouseContainer";
+import DataFetching from "./components/ReactHooks/effect-hook/DataFetching";
 class App extends Component {
   render() {
     return (
@@ -77,8 +78,9 @@ class App extends Component {
          <ClassCounter />
             <ClassMouse />
              <HookMouse />
+               <MouseContainer />
         */}
-        <MouseContainer />
+        <DataFetching />
       </div>
     );
   }
