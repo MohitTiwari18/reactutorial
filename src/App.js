@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
+//------------------------- React Advance --------------------------------------------
 import Greet from "./components/ReactAdvance/Greet";
 import Welcome from "./components/ReactAdvance/Welcome";
 import Message from "./components/ReactAdvance/Message";
@@ -18,13 +19,16 @@ import FocusInput from "./components/ReactAdvance/FocusInput";
 import PortalDemo from "./components/ReactAdvance/PortalDemo";
 import Hero from "./components/ReactAdvance/Hero";
 import ErrorBoundary from "./components/ReactAdvance/ErrorBoundary";
-//--------------------- END OF REACT ADVANCE------------------------------------------------
+//------------------------------ React Hooks ------------------------------------------------
 import ClassCounter from "./components/ReactHooks/state-hook/ClassCounter";
 import HookCounter from "./components/ReactHooks/state-hook/HookCounter";
 import HookCounterTwo from "./components/ReactHooks/state-hook/HookCounterTwo";
 import HookCounterThree from "./components/ReactHooks/state-hook/HookCounterThree";
 import ClassCounterTwo from "./components/ReactHooks/state-hook/ClassCounterTwo";
 import HookCounterFour from "./components/ReactHooks/state-hook/HookCounterFour";
+import ClassMouse from "./components/ReactHooks/effect-hook/ClassMouse";
+import HookMouse from "./components/ReactHooks/effect-hook/HookMouse";
+import MouseContainer from "./components/ReactHooks/effect-hook/MouseContainer";
 class App extends Component {
   render() {
     return (
@@ -70,8 +74,11 @@ class App extends Component {
 				<HookCounterTwo />
 				<HookCounterThree />
         <HookCounterFour />
+         <ClassCounter />
+            <ClassMouse />
+             <HookMouse />
         */}
-        <ClassCounter />
+        <MouseContainer />
       </div>
     );
   }
